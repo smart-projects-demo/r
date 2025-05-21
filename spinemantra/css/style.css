@@ -14,10 +14,12 @@ html {
 /*font-size:62.5%;
 	font-size:100%;*/}
 body {
-	font-family: 'Roboto', sans-serif;
+	/* font-family: 'Roboto', sans-serif; */
+	 font-family: "Montserrat", sans-serif;
 }
 h1, h2, h3, h4, h5 {
-	font-family: 'Oswald', sans-serif;
+	/* font-family: 'Oswald', sans-serif; */
+	 font-family: "Montserrat", sans-serif;
 }
 h1 {
 	font-size: 2.95rem;
@@ -137,7 +139,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#15aee4', end
 /* ****************=======******************** */
 
 .container{
-	border: 1px solid green;
+	/* border: 1px solid green; */
 }
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: #41ac9c;
@@ -178,8 +180,81 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#15aee4', end
   grid-template-columns: minmax(40%, 40%) minmax(60%, 60%);
 }
 .dtl_bnft div {
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
+
+.top_info_bar{
+	 display: grid;
+  grid-template-columns: minmax(14%, 14%) minmax(35%, 35%) minmax(45%, 1fr);
+}
+
+.cont_dtl_bx{
+	line-height: 1.3;
+	text-decoration: none;
+}
+.call_blok{
+	font-size: 10px;
+
+}
+
+.num_blok{
+font-size: 14px;
+font-weight: 600;
+}
+
+
+.bk_now{
+	font-size: 10px;
+}
+/* .clck{
+	position: relative;
+}
+.clck::after{
+	display: block;
+	 
+	content: url(../images/clock.png);
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 50px;
+	width: 50px;
+} */
+
+
+
+
+
+
+
+
+
+.patint_say{
+	background: #eff6f5;
+	padding-top: 85px;
+}
+
+
+
+
+
+
+.slick_with_gap .slick-slide {
+   
+   margin-right: 15px;
+}
+/* .slick_with_gap .slick-slide > div {
+  
+   overflow: hidden;
+} */
+
+.slick_with_gap .slick-slide img {
+   
+    width: 100%;
+}
+.slick_with_gap .slick-list.draggable {
+   margin-right: -10px;
+}
+
 /* ***********************======********************** */
 
 

@@ -4,9 +4,9 @@
   //centerMode: true,
  // autoplay: true,
  //infinite: false,
- arrows: true,
+ arrows: false,
   dots: true,
-  slidesToShow: 3,
+  slidesToShow: 4,
   slidesToScroll: 3,
   responsive: [
     {
