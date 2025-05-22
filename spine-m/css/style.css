@@ -1,0 +1,348 @@
+@import "../font/css/all.css";
+@import "./5_7_grd.css"; 
+@import "./slick.css";
+@import "./slick-theme.css";
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+ul {
+	padding:0;
+}
+ul li {
+	list-style-type:none;
+}
+html {
+/*font-size:62.5%;
+	font-size:100%;*/}
+body {
+	/* font-family: 'Roboto', sans-serif; */
+	 font-family: "Montserrat", sans-serif;
+}
+h1, h2, h3, h4, h5 {
+	/* font-family: 'Oswald', sans-serif; */
+	 font-family: "Montserrat", sans-serif;
+}
+h1 {
+	font-size: 2.95rem;
+	font-weight: 700;
+}
+h2 {
+	font-size: 2rem;
+	font-weight: 700;
+}
+a:hover {
+	text-decoration:none;
+}
+a:focus {
+	outline:none;
+}
+.btn:focus {
+	box-shadow:inherit;
+}
+.form-control:focus {
+	box-shadow:inherit;
+	
+}
+
+.d_flex{
+	display:flex;}
+	
+
+.cu_m_0{
+	margin:0;}
+.cu_p_0{
+	padding:0;}
+.cu_ml_5{
+	    margin-left: 3rem;}
+.cu_mr_5{
+	    margin-right: 3rem;}
+
+.cu_py_6{
+	margin-top:4rem;
+	margin-bottom:4rem;}
+	.cu_py_5_fst{
+	margin-top:6rem;
+	margin-bottom:3rem;}	
+		
+.cu_py_5{
+	margin-top:3rem;
+	margin-bottom:3rem;}
+	
+.cu_py_4_fst{margin-top:3rem;
+	margin-bottom:1.5rem;}	
+	
+.cu_py_4{margin-top:1.5rem;
+	margin-bottom:1.5rem;}
+	
+.cu_my_5{
+	padding:3rem 0rem;}	
+		
+.cu_my_4{
+	padding:1.5rem 0rem;}	
+	
+	
+	
+	
+.nt_chld_aftr li:not(:first-child):after {
+	
+	content: '|';	
+	position: absolute;
+    top: 11px;
+	color:#fff;
+  left: 0px;
+  font-size: 25px;
+}
+
+.nt_chld  li:not(:first-child) {
+	margin-left:40px;
+	padding-left:40px;
+	
+}
+
+/* .top_bar {
+	background:#1f1f29;
+} */
+
+
+
+
+
+/**** slider start *****/
+
+
+
+    .slick-prev:before,  .slick-next:before {
+	color: #555a6e;
+}
+
+
+
+
+/******* slider end ********/
+
+
+
+
+
+/************=========***************/
+	
+	
+.find_looking_cnt {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#15aee4+0,2989d8+58,207cca+67,1f50d1+100 */
+background: #15aee4; /* Old browsers */
+	background: -moz-linear-gradient(left, #15aee4 0%, #2989d8 58%, #207cca 67%, #1f50d1 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #15aee4 0%, #2989d8 58%, #207cca 67%, #1f50d1 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #15aee4 0%, #2989d8 58%, #207cca 67%, #1f50d1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#15aee4', endColorstr='#1f50d1', GradientType=1 ); /* IE6-9 */
+	margin-top: 85px;
+}
+
+/* ****************=======******************** */
+
+.container{
+	/* border: 1px solid green; */
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #41ac9c;
+}
+.nav-link{
+	font-size: 14px;
+}
+.ban_para{
+	width: 49%;
+    max-width: 526px;
+}
+
+.im_sldr{
+	background-image:  url("../images/Banner.png");
+	background-position: center;
+	height: 30rem;
+	background-size: cover;
+}
+.im_sldr .carousel-caption {
+    position: absolute;
+    right: 0%;
+    bottom: 2.25rem;
+    left: 0%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: green;
+    text-align: left;
+}
+
+.im_sldr img{
+	opacity: 0;
+}
+
+.info_strip{
+	    transform: translateY(-50px);
+		border-radius: 10px;
+		display: grid;
+		 grid-template-columns: minmax(23%, 23%) minmax(23%, 23%) minmax(23%, 23%) minmax(31%, 31%);
+		 justify-content: space-between;
+}
+
+.info_strip .cont_dtl_bx {
+	width: 225px;
+    justify-content: space-between;
+    align-items: center;
+	padding: 0px 20px;
+}
+.bok_cnsltbtn{
+	width: 250px;
+	height: 50px;
+}
+.info_strip .call_blok{
+	color: #87b9c2;;
+}
+
+.benifit{
+	 display: grid;
+  grid-template-columns: minmax(32%, 35%) minmax(60%, 60%);
+   /* gap: 50px;
+  box-sizing: border-box; */
+  justify-content: space-between;
+}
+.hdr_benift_sec{
+	/* padding-right: 30px; */
+}
+.dtl_bnft > div {
+	/* border: 1px solid red; */
+
+}
+
+.dtl_bnft > div:nth-child(odd) {
+  padding-right: 65px;
+}
+.top_info_bar_parnt{
+	border-bottom: 1px solid #e8e8ec;
+	padding-block: 5px;
+}
+.top_info_bar{
+	 display: grid;
+  grid-template-columns: minmax(14%, 14%) minmax(35%, 35%) minmax(45%, 1fr);
+}
+
+.cont_dtl_bx{
+	line-height: 1.3;
+	text-decoration: none;
+}
+.call_blok{
+	font-size: 10px;
+
+}
+
+.num_blok{
+font-size: 14px;
+font-weight: 600;
+}
+
+
+.bk_now{
+	font-size: 10px;
+}
+
+
+
+.grey_text{
+	color: #9294a0;
+}
+
+.secondary_clr{
+	color: #282b38;
+}
+.secondary_clr_bnr_pra{
+	color: #2b3634;
+}
+
+.primary_clr{
+	color: #41ac9c;
+}
+
+.bg-success{
+	
+	background: #41ac9c !important;
+}
+.dark_bg-success{
+	background: #236f7c !important;
+}
+.light_bg-success{
+	background: #41ac9b !important;
+}
+
+
+/* .clck{
+	position: relative;
+}
+.clck::after{
+	display: block;
+	 
+	content: url(../images/clock.png);
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 50px;
+	width: 50px;
+} */
+
+
+
+
+
+
+
+
+
+.patint_say{
+	background: #eff6f5;
+	padding-top: 85px;
+}
+
+
+
+
+
+
+.slick_with_gap .slick-slide {
+   
+   margin-right: 15px;
+}
+/* .slick_with_gap .slick-slide > div {
+  
+   overflow: hidden;
+} */
+
+.slick_with_gap .slick-slide img {
+   
+    width: 100%;
+}
+.slick_with_gap .slick-list.draggable {
+   margin-right: -10px;
+}
+
+/* ***********************======********************** */
+
+
+ @media( max-width : 980px ) {
+
+}
+ @media( max-width : 580px ) {
+
+}
+ @media( max-width : 768px ) {
+html {
+	font-size:70%;
+}
+.navbar-collapse{
+	background:#ccc;}
+}
+ @media( max-width : 480px ) {
+
+html {
+	font-size:60%;
+}
+}
+ @media( max-width : 380px ) {
+html {
+	font-size:55%;
+}
+}
