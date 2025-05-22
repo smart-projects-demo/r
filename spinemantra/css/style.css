@@ -213,7 +213,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#15aee4', end
 .dtl_bnft > div:nth-child(odd) {
   padding-right: 65px;
 }
-
+.top_info_bar_parnt{
+	border-bottom: 1px solid #e8e8ec;
+	padding-block: 5px;
+}
 .top_info_bar{
 	 display: grid;
   grid-template-columns: minmax(14%, 14%) minmax(35%, 35%) minmax(45%, 1fr);
